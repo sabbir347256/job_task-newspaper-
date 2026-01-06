@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div className="text-sm leading-relaxed md:text-center ">
                     <p className='text-lg text-center'>
-                        বার্তা, সম্পাদকীয় ও বাণিজ্যিক কার্যালয় : কাওরান বাজার, ঢাকা
+                        সম্পাদকীয় ও বাণিজ্যিক কার্যালয় : কাওরান বাজার, ঢাকা
                     </p>
                     <p className="mt-3">
                         <strong>বিজ্ঞাপনের জন্যে</strong> <br />
