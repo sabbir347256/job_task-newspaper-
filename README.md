@@ -36,12 +36,11 @@ Local JSON Data – News data source
 Folder Structure:
 
 src/
-│
-├── assets/                
+├── assets/
 │
 ├── component/
 │   ├── NesJson/
-│   │   └── news.json      
+│   │   └── news.json
 │   │
 │   ├── Page/
 │   │   ├── HomePageComponent/
@@ -58,7 +57,7 @@ src/
 │   │       └── NewsDetails.jsx
 │   │
 │   ├── Root/
-│   │   └── Root.jsx      
+│   │   └── Root.jsx
 │   │
 │   ├── Shared/
 │   │   ├── Navbar.jsx
@@ -69,8 +68,10 @@ src/
 │       ├── SingleNews.jsx
 │       └── SingleNewsCard.jsx
 │
-├── image/            
+├── image/
+│
 ├── App.jsx
 ├── main.jsx
 ├── index.css
 └── App.css
+
