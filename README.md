@@ -1,16 +1,76 @@
-# React + Vite
+Newspaper Task – React News Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive news website built using React JS, Tailwind CSS, and DaisyUI.
+It displays news in list/grid format with category-wise filtering and detailed news pages.
 
-Currently, two official plugins are available:
+Installation Steps:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Clone the repository
+git clone https://github.com/sabbir347256/job_task-newspaper-.git
 
-## React Compiler
+# Go to project directory
+cd newspaper_task
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Install dependencies
+npm install
 
-## Expanding the ESLint configuration
+# Run the project
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Technologies Used
+
+React JS – Component-based UI
+
+Vite – Fast development build tool
+
+Tailwind CSS – Utility-first CSS framework
+
+DaisyUI – Tailwind-based UI components
+
+React Router DOM – Routing & page navigation
+
+Local JSON Data – News data source
+
+
+Folder Structure:
+
+src/
+│
+├── assets/                
+│
+├── component/
+│   ├── NesJson/
+│   │   └── news.json      
+│   │
+│   ├── Page/
+│   │   ├── HomePageComponent/
+│   │   │   └── FeatureNews/
+│   │   │       └── FeatureNewsSection.jsx
+│   │   │
+│   │   ├── Home/
+│   │   │   └── Home.jsx
+│   │   │
+│   │   ├── NavCategoryWiseNews/
+│   │   │   └── CategoryWiseNews.jsx
+│   │   │
+│   │   └── NewsDetails/
+│   │       └── NewsDetails.jsx
+│   │
+│   ├── Root/
+│   │   └── Root.jsx      
+│   │
+│   ├── Shared/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── Loading.jsx
+│   │
+│   └── ShareNewsCard/
+│       ├── SingleNews.jsx
+│       └── SingleNewsCard.jsx
+│
+├── image/            
+├── App.jsx
+├── main.jsx
+├── index.css
+└── App.css
